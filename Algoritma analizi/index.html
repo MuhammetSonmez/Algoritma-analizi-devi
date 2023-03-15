@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <!--<script src="test.js"></script>-->
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          text-align: center;
+        }
+        
+        th, td {
+          padding: 8px;
+          text-align: center;
+          border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+          background-color: #f2f2f2;
+        }
+        
+        tbody tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+      </style>
+      
+</head>
+<body>
+    <button style="background-color: yellow;" onclick="run()">Run code!</button>
+    <br>
+    <h1>linear search</h1>
+    
+    <table>
+        <thead>
+          <tr>
+            <th>Durum</th>
+            <th>Best Case</th>
+            <th>Average Case</th>
+            <th>Worst Case</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Zaman Karmaşıklığı</td>
+            <td>O(1)</td>
+            <td>O(n)</td>
+            <td>O(n)</td>
+          </tr>
+        </tbody>
+      </table>
+          
+
+    
+    <h1>brute force</h1>
+        
+    <table>
+        <thead>
+          <tr>
+            <th>Durum</th>
+            <th>Best Case</th>
+            <th>Average Case</th>
+            <th>Worst Case</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Zaman Karmaşıklığı</td>
+            <td>O(n)</td>
+            <td>O(n^2)</td>
+            <td>O(n^2)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h1>quick sort</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Durum</th>
+            <th>Best Case</th>
+            <th>Average Case</th>
+            <th>Worst Case</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Zaman Karmaşıklığı</td>
+            <td>O(n log n)</td>
+            <td>O(n log n)</td>
+            <td>O(n^2)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h1 style="color: black; background-color: yellow;">Kodun açıklaması main.js dosyasının içinde bulunmaktadır ! <br> "run code!" butonuna basarak kodu çalıştırabilirsiniz.</h1>
+
+</body>
+</html>
